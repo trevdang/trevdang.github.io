@@ -41,6 +41,8 @@ export const Banner = () => {
             setDelta(100);
         }
     }
+    
+    //
 
     return (
         <section className="banner" id="home">
