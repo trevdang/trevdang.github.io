@@ -25,20 +25,20 @@ export const Skills = () => {
                             </p>
                             <Col>
                                 <Row>
-                                    <Col><img src={CLogo}/><p>C</p></Col>
-                                    <Col><img src={CppLogo}/><p>C++</p></Col>
-                                    <Col><img src={JavaLogo}/><p>Java</p></Col>
-                                    <Col><img src={PythonLogo}/><p>Python</p></Col>
+                                    <Col><img src={CLogo} alt="CLogo"/><p>C</p></Col>
+                                    <Col><img src={CppLogo} alt="CppLogo"/><p>C++</p></Col>
+                                    <Col><img src={JavaLogo} alt="JavaLogo"/><p>Java</p></Col>
+                                    <Col><img src={PythonLogo} alt="PythonLogo"/><p>Python</p></Col>
                                 </Row>
                                 <Row>
-                                    <Col><img src={HTMLLogo}/><p>HTML</p></Col>
-                                    <Col><img src={CSSLogo}/><p>CSS</p></Col>
-                                    <Col><img src={JavaScriptLogo}/><p>JavaScript</p></Col>
-                                    <Col><img src={ReactLogo}/><p>React</p></Col>
+                                    <Col><img src={HTMLLogo} alt="HTMLLogo"/><p>HTML</p></Col>
+                                    <Col><img src={CSSLogo} alt="CSSLogo"/><p>CSS</p></Col>
+                                    <Col><img src={JavaScriptLogo} alt="JavaScriptLogo"/><p>JavaScript</p></Col>
+                                    <Col><img src={ReactLogo} alt="ReactLogo"/><p>React</p></Col>
                                 </Row>
                                 <Row>
-                                    <Col><img src={FlutterLogo}/><p>Flutter</p></Col>
-                                    <Col><img src={GitLogo}/><p>Git</p></Col>
+                                    <Col><img src={FlutterLogo} alt="FlutterLogo"/><p>Flutter</p></Col>
+                                    <Col><img src={GitLogo} alt="GitLogo"/><p>Git</p></Col>
                                 </Row>
                             </Col>
                         </div>
