@@ -62,6 +62,8 @@
   height: 100%;
 }
 .proj-txtx {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   text-align: center;
   top: 65%;
@@ -93,6 +95,42 @@
 }
 .proj-imgbx .project-card-url {
   text-decoration: none;
+}
+.proj-txtx button {
+  margin-top: 20px;
+  padding: 100px;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-left: 18px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+}
+.proj-txtx button span {
+  z-index: 1;
+}
+.proj-txtx button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.proj-txtx button:hover span {
+  color: #121212;
+}
+.proj-txtx button:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 /* Default CSS Styling */
@@ -445,6 +483,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .experience .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
+.experience .nav.nav-pills .nav-link.active:hover {
+  color: white;
+}
+.experience .nav.nav-pills .nav-link:hover {
+  transition: 0.3s ease-in-out;
+  background: white;
+  color: black
+}
 .experience span {
   padding-bottom: 30px;
   border-radius: 30px;
@@ -467,10 +513,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .experience .experience-header-spacing {
   padding-bottom: 40px;
 }
+.list {
+  padding-right: 100px;
+  padding-left: 100px;
+}
 .list li {
   text-align: center;
   list-style-position: inside;
-  padding: 5px 0px;
+  padding: 10px 0px;
 }
 .nav-link#experience-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
