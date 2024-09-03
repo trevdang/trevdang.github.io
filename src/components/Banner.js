@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/overlay.png";
 import { Clipboard } from "react-bootstrap-icons";
 import Typewriter from "typewriter-effect";
-import Resume from "../assets/Trevor_Dang_-_SW7.pdf";
+import Resume from "../assets/Trevor_Dang_-_SW13.pdf";
 
 export const Banner = () => {
   return (

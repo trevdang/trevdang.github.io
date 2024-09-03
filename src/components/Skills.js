@@ -12,6 +12,8 @@ import GitLogo from "../assets/img/git.png";
 import AngularLogo from "../assets/img/angular.png";
 import TypeScriptLogo from "../assets/img/typescript.png";
 
+// https://github.com/marwin1991/profile-technology-icons?tab=readme-ov-file#%EF%B8%8F-cc
+
 export const Skills = () => {
   return (
     <section className="skills" id="skills">
@@ -77,6 +79,42 @@ export const Skills = () => {
                   <Col>
                     <img src={GitLogo} alt="GitLogo" />
                     <p>Git</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <img src="https://user-images.githubusercontent.com/25181517/183896132-54262f2e-6d98-41e3-8888-e40ab5a17326.png" alt="AWSLogo" />
+                    <p>AWS</p>
+                  </Col>
+                  <Col>
+                    <img src="https://user-images.githubusercontent.com/25181517/183911547-990692bc-8411-4878-99a0-43506cdb69cf.png" alt="GoogleCloudLogo" />
+                    <p>Google Cloud</p>
+                  </Col>
+                  <Col>
+                    <img src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png" alt="DockerLogo" />
+                    <p>Docker</p>
+                  </Col>
+                  <Col>
+                    <img src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png" alt="JenkinsLogo" />
+                    <p>Jenkins</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <img src="https://user-images.githubusercontent.com/25181517/182534006-037f08b5-8e7b-4e5f-96b6-5d2a5558fa85.png" alt="KubernetesLogo" />
+                    <p>Kubernetes</p>
+                  </Col>
+                  <Col>
+                    <img src="https://user-images.githubusercontent.com/25181517/117208736-bdedc080-adf5-11eb-912f-61c7d43705f6.png" alt="OracleLogo" />
+                    <p>Oracle</p>
+                  </Col>
+                  <Col>
+                    <img src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png" alt="MySQLLogo" />
+                    <p>MySQL</p>
+                  </Col>
+                  <Col>
+                    <img src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png" alt="MongoDBLogo" />
+                    <p>MongoDB</p>
                   </Col>
                 </Row>
               </Col>

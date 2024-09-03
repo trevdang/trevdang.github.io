@@ -15,25 +15,54 @@ export const Experience = () => {
               <Tab.Container id="experience-tabs" defaultActiveKey="first">
                 <Nav variant="pills">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">WelTel</Nav.Link>
+                    <Nav.Link eventKey="first">Broadcom</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Promag Enviro Systems</Nav.Link>
+                    <Nav.Link eventKey="second">WelTel</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third" disabled="true">
-                      -
-                    </Nav.Link>
+                    <Nav.Link eventKey="third">Promag Enviro Systems</Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <div className="tab-description-divider" />
                 <span>
                   <Tab.Content>
                     <Tab.Pane eventKey="first">
+                      <h3>Broadcom</h3>
+                      <h6>Software Engineer Intern</h6>
+                      <h6 className="experience-header-spacing">
+                        September 2023 - April 2024
+                      </h6>
+                      <ul className="list">
+                        <li>
+                          Assisted in development of API Gateway technology using a
+                          variety of programming languages such as Java and Bash scripting
+                          for code infrastructure and DevOps, and technologies such as Google
+                          Cloud, VMWare, Kubernetes, and Docker to deploy gateway
+                        </li>
+                        <li>
+                          Utilized virtualization technologies on Google Cloud
+                          combined with Jenkins CI/CD pipelines to provide a deployment
+                          environment for gateway integration and functional tests
+                        </li>
+                        <li>
+                          Integrated external API Gateway assertions into centralized 
+                          repository to reduce technical debt and provide higher quality
+                          monitorization of gateway functionality
+                        </li>
+                        <li>
+                          Maintained codebase through manual and automated testing across
+                          multiple API Gateway form factors using a variety of different
+                          Java testing frameworks providing stability in Jenkins
+                          test pipelines
+                        </li>
+                      </ul>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
                       <h3>WelTel</h3>
                       <h6>Full-Stack Developer</h6>
                       <h6 className="experience-header-spacing">
-                        January 2023 - Present
+                        January 2023 - August 2023
                       </h6>
                       <ul className="list">
                         <li>
@@ -63,7 +92,7 @@ export const Experience = () => {
                         </li>
                       </ul>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second">
+                    <Tab.Pane eventKey="third">
                       <h3>Promag Enviro Systems</h3>
                       <h6>Software Developer</h6>
                       <h6 className="experience-header-spacing">
@@ -95,9 +124,6 @@ export const Experience = () => {
                           ownership
                         </li>
                       </ul>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>-</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </span>

@@ -3,7 +3,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import logo2 from "../assets/img/logo-2.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import { Clipboard, Github } from "react-bootstrap-icons";
-import Resume from "../assets/Trevor_Dang_-_SW7.pdf";
+import Resume from "../assets/Trevor_Dang_-_SW13.pdf";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
