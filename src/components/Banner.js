@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/overlay.png";
 import { Clipboard } from "react-bootstrap-icons";
 import Typewriter from "typewriter-effect";
-import Resume from "../assets/Trevor_Dang_-_SW13.pdf";
+import Resume from "../assets/Trevor_Dang_Resume.pdf";
 
 export const Banner = () => {
   return (
@@ -27,7 +27,7 @@ export const Banner = () => {
                     .start()
                     .pauseFor(1000)
                     .typeString(
-                      "I am a third-year Computer Engineering student,"
+                      "I am a fourt -year Computer Engineering student,"
                     )
                     .pauseFor(1250)
                     .deleteAll()
@@ -48,7 +48,7 @@ export const Banner = () => {
               the University of British Columbia.
             </p>
             <p>
-              In my free time I enjoy learning new things in full-stack
+              In my free time I enjoy learning new things in full stack
               development, playing sports, and playing video games. Please feel
               free to explore around the web page.
             </p>
