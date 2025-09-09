@@ -10,7 +10,7 @@ export const ProjectCard = ({ url, title, description, imgUrl }) => {
         target="_blank"
       >
         <div className="proj-imgbx">
-          <img src={imgUrl} alt="projCardImg" height={280} />
+          <img src={imgUrl} alt="projCardImg" height={340}/>
           <div className="proj-txtx">
             <h4>{title}</h4>
             <span>{description}</span>
