@@ -35,26 +35,26 @@ export const Experience = () => {
                       </h6>
                       <ul className="list">
                         <li>
-                          Assisted in development of API Gateway technology using a
-                          variety of programming languages such as Java and Bash scripting
-                          for code infrastructure and DevOps, and technologies such as Google
-                          Cloud, VMWare, Kubernetes, and Docker to deploy gateway
+                          Collaborated with a team of 8 engineers to develop and maintain 
+                          Broadcom's Layer7 API Gateway cloud platform
                         </li>
                         <li>
-                          Utilized virtualization technologies on Google Cloud
-                          combined with Jenkins CI/CD pipelines to provide a deployment
-                          environment for gateway integration and functional tests
+                          Enforced API governance through policy assertions across diverse 
+                          deployment environments, including on-premise VMware OVAs, Kubernetes 
+                          clusters, and Docker containers
                         </li>
                         <li>
-                          Integrated external API Gateway assertions into centralized 
-                          repository to reduce technical debt and provide higher quality
-                          monitorization of gateway functionality
+                          Developed and presented a new gateway license generator on RHEL 8 OVA 
+                          to efficiently provide license batches for different gateway products for 
+                          new and existing customers
                         </li>
                         <li>
-                          Maintained codebase through manual and automated testing across
-                          multiple API Gateway form factors using a variety of different
-                          Java testing frameworks providing stability in Jenkins
-                          test pipelines
+                          Updated gateway assertion code to align with new JDK standards, improving 
+                          compatibility with Luna and nShield HSMs and reducing technical debt
+                        </li>
+                        <li>
+                          Parallelized Jenkins jobs and Java tests to cut artifact build times by 
+                          30% across gateway environments
                         </li>
                       </ul>
                     </Tab.Pane>
@@ -66,29 +66,23 @@ export const Experience = () => {
                       </h6>
                       <ul className="list">
                         <li>
-                          Developed and refactored 35+ new and existing software
-                          systems/components for a healthcare web application
-                          utilizing Angular (TypeScript), HTML/CSS, NG-ZORRO for
-                          the front-end features and Node.js and Bookshelf.js
-                          for the backend features
+                          Developed and refactored 35+ new and existing software features for a 
+                          healthcare web application using a technology stack comprised of Angular, 
+                          Node.js, and AWS
                         </li>
                         <li>
-                          Utilized a Model View Controller Service (MVCS)
-                          architecture to create RESTful APIs using controllers
-                          to manage communication between front-end and backend
-                          services
+                          Implemented and designed new data models for a MySQL database using 
+                          Bookshelf.js to efficiently access and display thousands of patient health 
+                          records for healthcare works to provide correct diagnoses
                         </li>
                         <li>
-                          Implemented new fields for data models with relational
-                          database mapping to store thousands of patients'
-                          personal information for healthcare workers to provide
-                          correct diagnoses and treatment
+                          Researched and transformed a patient notification messaging system into a 
+                          serverless solution on AWS (API Gateway, Lambda, SQS), increasing efficiency and 
+                          reducing server load by 20%
                         </li>
                         <li>
-                          Conducted user acceptance testing (UAT), end-to-end
-                          (E2E) testing, and unit testing across a large
-                          platform using Jest test suites while following agile
-                          workflow using JIRA
+                          Conducted E2E and integration testing across the platform through Jasmine and Jest 
+                          test suites while following an agile workflow using JIRA to ensure application stability
                         </li>
                       </ul>
                     </Tab.Pane>
@@ -100,28 +94,17 @@ export const Experience = () => {
                       </h6>
                       <ul className="list">
                         <li>
-                          Developed an interactive water monitoring app that
-                          interacts with hardware utilizing Flutter for
-                          front-end features, Django and PostgreSQL for backend
-                          features, and Python and Single Board Computer (SBC)
-                          for IoT features
+                          Created a Flutter mobile water app for industrial clients to monitor and treat water 
+                          by communicating with a Single Board Computer (SBC)
                         </li>
                         <li>
-                          Implemented RESTful APIs in Django to communicate with
-                          SBC's database through AWS IoT Core using MQTT to
-                          increase data transfer frequency from 10 minutes to 5
-                          seconds
+                          Implemented REST APIs in Django to communicate with SBC's PostgreSQL database through 
+                          AWS IoT Core's MQTT publish/subscribe model, resulting in improved data transfer frequency 
+                          from 10 minutes to 5 seconds
                         </li>
                         <li>
-                          Created a secure provisioning script in Python that
-                          utilizes AWS IoT Core and Things to provide
-                          personalized SBC configurations
-                        </li>
-                        <li>
-                          Constructed SBC Bluetooth commands to receive
-                          Bluetooth requests from mobile devices so an SBC can
-                          be self-registered to a user account to provide device
-                          ownership
+                          Constructed SBC Bluetooth commands to receive mobile device requests leading to an automated 
+                          and efficient self-registration process of SBC water monitoring devices for clients
                         </li>
                       </ul>
                     </Tab.Pane>
