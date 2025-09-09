@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import projImg6 from "../assets/img/get2class_logo.png"
 import projImg5 from "../assets/img/studyai.png";
 import projImg4 from "../assets/img/chat_app.png";
 import projImg3 from "../assets/img/entertainment_robot.png";
@@ -8,6 +9,13 @@ import projImg1 from "../assets/img/logo-2.png";
 
 export const Projects = () => {
   const projects = [
+    {
+      url: "https://github.com/Get2Class/Get2Class",
+      title: "Get2Class",
+      description:
+        "A gamified calendar application designed to reward university students for going to class (winning 2nd place out of 18 groups)",
+      imgUrl: projImg6
+    },
     {
       url: "https://github.com/trevdang/study-ai",
       title: "Study AI",
