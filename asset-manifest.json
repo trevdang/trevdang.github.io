@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.99975694.css",
-    "main.js": "/static/js/main.028ca524.js",
+    "main.js": "/static/js/main.1cc296ad.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/overlay.png": "/static/media/overlay.3b98246c98cd78838690.png",
     "static/media/entertainment_robot.png": "/static/media/entertainment_robot.ef48a1da8f9530bbe96d.png",
     "static/media/python.png": "/static/media/python.2dfe992c8ec71825b301.png",
     "static/media/banner-bg-2.jpg": "/static/media/banner-bg-2.4f472066c79fc3964afc.jpg",
-    "static/media/studyai.png": "/static/media/studyai.938388e04ed6724141a6.png",
     "static/media/react.png": "/static/media/react.6bcffb56bd0efaa47767.png",
-    "static/media/Trevor_Dang_-_SW13.pdf": "/static/media/Trevor_Dang_-_SW13.ed393f68016276c2cf5f.pdf",
     "static/media/javascript.png": "/static/media/javascript.2fe71b42505ecc37194f.png",
+    "static/media/Trevor_Dang_Resume.pdf": "/static/media/Trevor_Dang_Resume.0256ee4df7b02d4d2291.pdf",
     "static/media/java.png": "/static/media/java.c16a7d4338f6b318a1eb.png",
+    "static/media/studyai.png": "/static/media/studyai.4aa68c38fcf099e5bbc3.png",
     "static/media/cpp.png": "/static/media/cpp.cba61e3c8ba2e67372d7.png",
     "static/media/html.png": "/static/media/html.9107c79768195dcaab8c.png",
     "static/media/c.png": "/static/media/c.d3ff218aab0af6b806db.png",
@@ -24,14 +24,15 @@
     "static/media/logo-2.png": "/static/media/logo-2.bfa9b123c75c6e51c771.png",
     "static/media/chat_app.png": "/static/media/chat_app.6b8a607880a3900e3ec7.png",
     "static/media/flutter-removebg-preview.png": "/static/media/flutter-removebg-preview.33552a1c78c75ebe7287.png",
-    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/get2class_logo.png": "/static/media/get2class_logo.396138e9162a5373ddeb.png",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "index.html": "/index.html",
     "main.99975694.css.map": "/static/css/main.99975694.css.map",
-    "main.028ca524.js.map": "/static/js/main.028ca524.js.map",
+    "main.1cc296ad.js.map": "/static/js/main.1cc296ad.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99975694.css",
-    "static/js/main.028ca524.js"
+    "static/js/main.1cc296ad.js"
   ]
 }
